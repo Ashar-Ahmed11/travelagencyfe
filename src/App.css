@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body{
+  font-family: sans-serif;
+  
+}
+
+#root{
+  overflow-x: hidden;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.whatsapp {
+  position: fixed;
+  bottom: -4px;
+  left: 9px;
+  font-size: 60px;
+  z-index: 99999999;
+  border-radius: 100%;
+}
+.car-btn {
+   bottom: -4px;
+  left: 9px;
+  /* font-size: 50px; */
+  z-index: 99999999;
+  /* border-radius: 100%; */
+  color: white; 
+  animation: carBtn 1.5s infinite ease-in-out;
+}
+
+
+.heading {
+  bottom: -4px;
+  left: 9px;
+  font-size: 50px;
+  z-index: 99999999;
+  /* border-radius: 100%; */
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #1175C1;
+  width: 0;
+  animation: typing 3.5s steps(36, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 36ch; }
+}
+
+@keyframes blink {
+  0%, 100% { border-color: #1175C1; }
+  50% { border-color: transparent; }
+}
+
+
+@keyframes carBtn {
+  0% {
+    transform: scale(1);
+    color: white;
+  }
+  50% {
+    transform: scale(1.2);
+    color: #ffffff;
+  }
+  100% {
+    transform: scale(1);
+    color: white;
+  }
+}
+
+
+
+.mainCarousal{
+  background: #ffffff;
+background: linear-gradient(179deg, rgba(255, 255, 255, 1) 0%, rgba(87, 199, 133, 1) 89%, rgba(119, 237, 83, 1) 100%);
+}
+
+.phonenum {
+  position: fixed;
+  bottom: -4px;
+  right: 9px;
+  font-size: 60px;
+  z-index: 99999999;
+  border-radius: 100%;
+}
+
+
+
+@keyframes mymove {
+  0% {
+    /* -webkit-transform: translateY(10px);
+    transform: translateY(10px); */
+    scale: 1;
+  }
+
+  100% {
+    /* -webkit-transform: translateY(-40px);
+    transform: translateY(-40px); */
+    scale: 1.2;
+  }
+}
+
+
+.brand-image{
+  -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: mymove;
+    animation-name: mymove;
+}
+
+
+.headlineMove {            
+  animation: marquee 30s infinite linear;        
+}
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
