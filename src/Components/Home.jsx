@@ -16,6 +16,7 @@ import AkhuwatPlans from './akhuwatplans'
 import ApplyLoanForm from './homeComponents/ApplyLoanForm'
 import JobCategories from './homeComponents/jobCategories'
 import WorkProcess  from './homeComponents/workProcess'
+import TopCountries from './homeComponents/TopCountries'
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
     
     <div>
       <Crousal />
+      <TopCountries/>
       <JobCategories/>
       <ApplyLoanForm/>
       <StatsCards />

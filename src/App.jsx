@@ -51,8 +51,11 @@ const color = "#1175c1"
         <div className='phonenum brand-image'>
           <p className='m-0 fw-bold' style={{ fontSize: "11px", width: '55px', textAlign: 'center', color: color }}>Travel Agency Head Office No.</p>
           {/* 923428347762 */}
-          <a aria-label="Chat on WhatsApp" href={`tel:$${siteData.description.replace(" ", "").replace(/^0/, '92')}`}> <i style={{ color: color }} className="fa fa-phone-square" aria-hidden="true"></i> </a>
-        </div>
+          {/* <a aria-label="Chat on WhatsApp" href={`tel:$${siteData.description.replace(" ", "").replace(/^0/, '92')}`}> <i style={{ color: color }} className="fa fa-phone-square" aria-hidden="true"></i> </a> */}
+        <a className='mx-3' target="_blank" aria-label="Chat on WhatsApp" href={`https://wa.me/${siteData.description.replace(" ", "").replace(/^0/, '92')}?text=Travel Agency کی طرف سے ہم آپ کی کیا مدد کر سکتے ہیں؟`}> <i style={{ color: color }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
+
+          
+          </div>
       </div>}
       <div className="overflow-hidden whitespace-nowrap relative" style={{ backgroundColor: color }}>
         <div className="d-flex headlineMove" style={{ fontWeight: 'bold', width: 'max-content' }}>
