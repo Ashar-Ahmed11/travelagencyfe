@@ -110,6 +110,95 @@ const AppState = (props) => {
 
 
 
+  // Posts state
+  const [posts, setPosts] = useState([])
+  const [postsLoaded, setPostsLoaded] = useState(false)
+  const [postsLoading, setPostsLoading] = useState(false)
+  const [postById, setPostById] = useState({})
+
+  const fetchPosts = async () => {
+    if (postsLoading) return;
+    setPostsLoading(true)
+    try {
+      const res = await fetch('https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts', { method: 'GET' })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Failed to fetch posts')
+      setPosts(data)
+      setPostsLoaded(true)
+    } catch (e) {
+      console.error('fetchPosts:', e.message)
+    } finally {
+      setPostsLoading(false)
+    }
+  }
+
+  const fetchPostById = async (id) => {
+    try {
+      const res = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts/${id}`, { method: 'GET' })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Failed to fetch post')
+      setPostById(prev => ({ ...prev, [id]: data }))
+      return data
+    } catch (e) {
+      console.error('fetchPostById:', e.message)
+      return null
+    }
+  }
+
+  const createPostItem = async (title, description) => {
+    try {
+      const res = await fetch('https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'auth-token': adminToken || '' },
+        body: JSON.stringify({ title, description })
+      })
+      const created = await res.json()
+      if (!res.ok) throw new Error(created.error || 'Failed to create post')
+      setPosts(prev => [created, ...prev])
+      return created
+    } catch (e) {
+      alert(e.message)
+      throw e
+    }
+  }
+
+  const updatePostItem = async (id, title, description) => {
+    try {
+      const res = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', 'auth-token': adminToken || '' },
+        body: JSON.stringify({ title, description })
+      })
+      const updated = await res.json()
+      if (!res.ok) throw new Error(updated.error || 'Failed to update post')
+      setPosts(prev => prev.map(p => p._id === id ? updated : p))
+      setPostById(prev => ({ ...prev, [id]: updated }))
+      return updated
+    } catch (e) {
+      alert(e.message)
+      throw e
+    }
+  }
+
+  const deletePostItem = async (id) => {
+    try {
+      const res = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts/${id}`, {
+        method: 'DELETE',
+        headers: { 'auth-token': adminToken || '' }
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Failed to delete post')
+      setPosts(prev => prev.filter(p => p._id !== id))
+      const copy = { ...postById }; delete copy[id]; setPostById(copy)
+      return true
+    } catch (e) {
+      alert(e.message)
+      return false
+    }
+  }
+
+
+
 const mailSend = async (to) => {
   try {
     const res = await fetch("https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/send-email", {
@@ -391,7 +480,7 @@ const mailSend = async (to) => {
 
     // console.clear()
   return (
-    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate }}>
+    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate, posts, postsLoaded, postsLoading, fetchPosts, createPostItem, updatePostItem, deletePostItem, fetchPostById, postById }}>
       {props.children}
     </AppContext.Provider>
   )

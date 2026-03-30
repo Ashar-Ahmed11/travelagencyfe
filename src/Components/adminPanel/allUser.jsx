@@ -55,7 +55,7 @@ const AllUser = () => {
     if (!id || !status) return;
 
     try {
-      const response = await fetch(`https://embassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/update-status/${id}`, {
+      const response = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/update-status/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

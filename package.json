@@ -10,6 +10,8 @@
     "@testing-library/user-event": "^13.5.0",
     "ajv": "^7.2.4",
     "aos": "^2.3.4",
+    "jodit": "^4.11.15",
+    "jodit-react": "^5.3.21",
     "nodemailer": "^7.0.3",
     "react": "^19.1.0",
     "react-countup": "^6.5.3",

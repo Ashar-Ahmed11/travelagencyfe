@@ -103,6 +103,7 @@ const ApplyLoanForm = () => {
                     <option>Canada</option>
                     <option>Germany</option>
                     <option>Australia</option>
+                    <option>New Zealand</option>
                   </select>
                   <span className="fa fa-chevron-down" style={{ position: 'absolute', right: '12px', top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none', color: '#666' }}></span>
                 </div>

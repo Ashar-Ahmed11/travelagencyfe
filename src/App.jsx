@@ -28,6 +28,8 @@ import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 import VisaAboutUs from './Components/VisaAboutUs';
 import Blog from './Components/Blog';
 import FAQ from './Components/FAQ';
+import Posts from './Components/Posts';
+import PostDetail from './Components/PostDetail';
 
 function App() {
   const context = useContext(AppContext)
@@ -85,6 +87,12 @@ const color = "#1175c1"
         </Route>
         <Route exact path="/blog">
           <Blog />
+        </Route>
+        <Route exact path="/posts">
+          <Posts />
+        </Route>
+        <Route exact path="/posts/:id">
+          <PostDetail />
         </Route>
         <Route exact path="/faq">
           <FAQ />

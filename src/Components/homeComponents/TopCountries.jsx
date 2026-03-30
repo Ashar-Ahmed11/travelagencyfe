@@ -16,6 +16,7 @@ const TopCountries = () => {
     { name: 'Canada', iso: 'ca', img: 'https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8B08/production/_127029553_gettyimages-499971920.jpg' },
     { name: 'Germany', iso: 'de', img: 'https://cdn.prod.website-files.com/62fc39d4a8950f2d6f3b35f6/631dac59728e649ca75ec6c3_German-Cities-1068x687.webp' },
     { name: 'Australia', iso: 'au', img: 'https://img.freepik.com/premium-photo/melbourne-city-skyline-twilight-australia_255553-2294.jpg?semt=ais_hybrid&w=740&q=80' },
+    { name: 'New Zealand', iso: 'nz', img: 'https://www.travelonline.com/news/why-new-zealand-has-a-special-place-in-our-hearts-99782-ws.jpg' },
   ];
 
   const handleApply = (countryName) => {
