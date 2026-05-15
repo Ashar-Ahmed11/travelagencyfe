@@ -347,7 +347,7 @@ const ApplyLoanForm = () => {
 
         {/* Right column: Info */}
         <div className="col-md-6 p-5 order-1 order-md-2">
-          <h2 className="fw-bold mb-3">Application for a Travel Agency Job in 2025
+          <h2 className="fw-bold mb-3">In 2025, apply for a job with Travel Agency 4u.
 </h2>
           {/* <p>
             Enter your CNIC to see where your Travel Embassy Job Apply stands right now. Use our WhatsApp helpline for help or questions.

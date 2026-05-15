@@ -4,30 +4,30 @@ import coverImage from '../Images/faq1.png'
 export default function VisaFAQ() {
   const [openIndex, setOpenIndex] = useState(0);
 
-  const faqs =[
+const faqs = [
   {
-    "question": "What is a work visa for Canada?",
-    "answer": "A Canadian work visa is a legal document that lets people from other countries work in Canada for a set amount of time. Some permits are only good for one employer, while others let you work for more than one employer. Our consulting service can help you figure out which form of visa is best for your career ambitions."
+    "question": "What is a Canadian work visa?",
+    "answer": "A Canadian work visa is an official permit that allows foreign nationals to work in Canada for a specific period. Some permits are tied to a single employer, while others allow you to work for multiple employers. Our consultancy service can guide you in choosing the right visa option based on your career goals."
   },
   {
-    "question": "How can I get a work visa for Canada?",
-    "answer": "Most of the time, you need a valid work offer from a Canadian firm to apply. In some situations, you need a Labour Market Impact Assessment (LMIA) to make sure that hiring a foreign worker won't have an effect on the job market in your area. You can submit your application online using the IRCC portal or at an authorised visa application center after you have all the paperwork ready. Travel Agency helps you fill out your application correctly and completely by guiding you through each step."
+    "question": "How do I apply for a Canadian work visa?",
+    "answer": "In most cases, you need a valid job offer from a Canadian employer before applying. Certain applications also require a Labour Market Impact Assessment (LMIA) to confirm that employing a foreign worker will not negatively affect the local job market. Once your documents are prepared, you can apply online through the IRCC portal or via an approved visa application center. Travel Agency 4u supports you through every stage to ensure your application is completed accurately."
   },
   {
-    "question": "How long does it take to receive a visa to work in Canada?",
-    "answer": "The amount of time it takes to process your application depends on the type of work permit you want and the country you are applying from. It can take anywhere from a few weeks to a few months for standard applications to be processed. However, Express Entry applications are normally processed more quickly. Our team will help you keep track of your progress and stay up to date."
+    "question": "How much time does it take to get a Canada work visa?",
+    "answer": "Processing times vary depending on the work permit category and the country from which you apply. Standard applications may take several weeks or even months, while Express Entry applications are usually processed faster. Our team helps you stay informed and monitor your application progress throughout the process."
   },
   {
-    "question": "Can the Travel Agency assist me get a job in another country?",
-    "answer": "YYes, Travel Agency can help you apply for jobs in Canada, Dubai, Saudi Arabia, and Bahrain. We help with checking eligibility, getting documents ready, sending in applications, and keeping track of their status to make the process go as smoothly and quickly as possible."
+    "question": "Can Travel Agency 4u help me find overseas job opportunities?",
+    "answer": "Yes, Travel Agency 4u assists applicants in applying for jobs in Canada, Dubai, Saudi Arabia, and Bahrain. We provide support with eligibility checks, document preparation, application submission, and status tracking to make the process smooth and efficient."
   },
   {
-    "question": "Do I need to come to your office to get help?",
-    "answer": "No, you can start your application online and get complete help with it. We offer remote help with reviewing documents, getting a visa, and applying for jobs, which makes it easy for people all around Pakistan to get help."
+    "question": "Is it necessary to visit your office for assistance?",
+    "answer": "No, you can begin and complete your application process online. We provide remote assistance for document reviews, visa guidance, and job applications, making our services accessible to applicants across Pakistan."
   },
   {
-    "question": "Why should I use Travel Agency to apply for my job visa?",
-    "answer": "At every step, Travel Agency gives you clear, honest, and expert advice. We help people get jobs in Canada, Dubai, Saudi Arabia, and Bahrain, as well as police jobs in Bahrain. We make sure that your application is full, correct, and in line with current immigration rules to give you the best chance of success."
+    "question": "Why should I choose Travel Agency 4u for my work visa application?",
+    "answer": "Travel Agency 4u offers transparent, reliable, and professional guidance throughout the entire process. We assist applicants seeking jobs in Canada, Dubai, Saudi Arabia, Bahrain, and even Bahrain police positions. Our team ensures that your application is complete, accurate, and aligned with the latest immigration requirements to improve your chances of success."
   }
 ]
 
@@ -53,8 +53,13 @@ export default function VisaFAQ() {
               }}
             >
               <div className="container">
-                <h1 className="display-4 fw-bold mb-4">Travel Agency FAQ: Everything You Need to Know About Jobs and Visas Abroad</h1>
-                <p className="mb-2">The FAQ section is meant to answer the most common questions about getting a job in Canada, applying for a job online in Dubai, finding work in Saudi Arabia, and other international career alternatives. We give you clear and reliable advice so you may move forward with confidence at every step.</p>
+               <h1 className="display-4 fw-bold mb-4">
+  Travel Agency 4u FAQ: Your Complete Guide to International Jobs and Visa Applications
+</h1>
+
+<p className="mb-2">
+  Our FAQ section is designed to answer the most frequently asked questions about finding jobs in Canada, applying for jobs online in Dubai, securing employment in Saudi Arabia, and exploring other international career opportunities. We provide clear, dependable guidance to help you move ahead with confidence throughout every stage of the process.
+</p>
                 {/* <p className="mb-2">From understanding visa types and document requirements to learning about processing times and LMIA details,</p>
                 <p className="mb-2">we provide clear, reliable information to guide you through each stage of the application process.</p> */}
               </div>

@@ -26,9 +26,9 @@ const Blog = () => {
             }}
           >
             <div className="container">
-              <h1 className="display-4 fw-bold mb-4">Travel Agency Blog and Ideas</h1>
+              <h1 className="display-4 fw-bold mb-4">Travel Agency 4u Blog and Ideas</h1>
               <h5>Stay up to date on visa applications, jobs abroad, and opportunities around the world.</h5>
-              <p className="mb-2">“Our blog at Travel Agency keeps you up to date on the latest news, useful advice, and professional advice on applying for jobs online, finding jobs in Canada, Dubai, Saudi Arabia, and other places around the world. We give you reliable information about immigration policies, work permits, study abroad possibilities, and job opportunities around the world so you may make smart choices about your future abroad.”
+              <p className="mb-2">“Our blog at Travel Agency 4u keeps you up to date on the latest news, useful advice, and professional advice on applying for jobs online, finding jobs in Canada, Dubai, Saudi Arabia, and other places around the world. We give you reliable information about immigration policies, work permits, study abroad possibilities, and job opportunities around the world so you may make smart choices about your future abroad.”
 
  
 
@@ -128,7 +128,7 @@ const Blog = () => {
                 Step-by-Step Guide to Getting a Canadian Job Visa
               </h5>
               <p className="text-muted small">
-                Getting a job visa for Canada could seem hard, but Travel Agency makes it easy. Find out how to have important papers ready, like your passport, employment offer letter, proof of work experience, and school certificates. Know what employers want and what LMIA rules are so you can apply with confidence. Our consulting service makes sure you keep organised, up to date, and ready to get the job you want.
+                Getting a job visa for Canada could seem hard, but Travel Agency 4u makes it easy. Find out how to have important papers ready, like your passport, employment offer letter, proof of work experience, and school certificates. Know what employers want and what LMIA rules are so you can apply with confidence. Our consulting service makes sure you keep organised, up to date, and ready to get the job you want.
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ const Blog = () => {
                 Job Applications in Bahrain: Chances for Pakistani Workers
               </h5>
               <p className="text-muted small">
-                Find helpful tips for applying for employment in Bahrain, such as police officer, security guard, teacher, and hotel jobs. Travel Agency gives you useful information about who may work in Bahrain, what documents you need, and how to find a job there.
+                Find helpful tips for applying for employment in Bahrain, such as police officer, security guard, teacher, and hotel jobs. Travel Agency 4u gives you useful information about who may work in Bahrain, what documents you need, and how to find a job there.
               </p>
             </div>
           </div>

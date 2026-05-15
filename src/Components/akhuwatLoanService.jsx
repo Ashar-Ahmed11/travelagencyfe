@@ -8,9 +8,9 @@ const akhuwatLoanServices = () => {
   return (
     <div className="container-fluid px-4 py-4" style={{ maxWidth: "1000px", margin: "0 auto" , fontSize:"22px"}}>
       <div className="text-center mb-5">
-        <h1 className="fw-bold mb-3">Travel Agency Job Apply Services: Helping You Build a Brighter Future</h1>
+        <h1 className="fw-bold mb-3">Travel Agency 4u Job Apply Services: Helping You Build a Brighter Future</h1>
         <p className="lead mx-auto" style={{ maxWidth: "900px" }}>
-        Travel Agency empowers individuals, students, business owners, and families across Pakistan with tailored application solutions. With a simple process and clear terms, take confident steps toward your goals.
+        Travel Agency 4u empowers individuals, students, business owners, and families across Pakistan with tailored application solutions. With a simple process and clear terms, take confident steps toward your goals.
         </p>
           <h1 className="fw-bold mb-3">What We Offer to Our Customers:</h1>
       </div>
@@ -20,7 +20,7 @@ const akhuwatLoanServices = () => {
         <div className="col-lg-7 col-md-6">
           <h2 className="fw-bold mb-3">1. Personal Applications: Achieve Your Life Goals</h2>
           <p>
-           Personal Job Apply from Travel Agency supports urgent needs — from medical to family events or projects.
+           Personal Job Apply from Travel Agency 4u supports urgent needs — from medical to family events or projects.
 
 
           </p>
@@ -56,7 +56,7 @@ const akhuwatLoanServices = () => {
         <div className="col-lg-7 col-md-6">
           <h2 className="fw-bold mb-3">2. Business Applications: Empowering Entrepreneurs</h2>
           <p>
-          Travel Agency supports businesses to start, expand, or invest in new resources. Whether your venture is in technology, retail, or any other industry, this process supports long-term growth.
+          Travel Agency 4u supports businesses to start, expand, or invest in new resources. Whether your venture is in technology, retail, or any other industry, this process supports long-term growth.
           </p>
           <ul>
             <li><b>Support for Various Goals:</b> Funding options cover both short-term and long-term business needs.</li>
@@ -75,7 +75,7 @@ const akhuwatLoanServices = () => {
         <div className="col-lg-7 col-md-6">
           <h2 className="fw-bold mb-3">3. Student Applications: Investing in Your Future</h2>
           <p>
-       Education transforms lives. Travel Agency’s student Job Apply helps with tuition, books, and living expenses so you can focus on studies.
+       Education transforms lives. Travel Agency 4u’s student Job Apply helps with tuition, books, and living expenses so you can focus on studies.
           </p>
           <ul>
             <li><b>Comprehensive Support:</b> Applications can cover all or part of your educational expenses.</li>
@@ -112,7 +112,7 @@ const akhuwatLoanServices = () => {
         <div className="col-lg-7 col-md-6">
           <h2 className="fw-bold mb-3">4. Home Applications: Making Your Dream Home a Reality</h2>
           <p>
-           Owning a home is one of life’s biggest milestones. Travel Agency supports home Job Apply to make buying or renovating a house accessible and stress-free.
+           Owning a home is one of life’s biggest milestones. Travel Agency 4u supports home Job Apply to make buying or renovating a house accessible and stress-free.
           </p>
           <ul>
             <li>Multiple Options: Applications for purchasing new homes or improving existing ones.</li>
@@ -122,7 +122,7 @@ const akhuwatLoanServices = () => {
           <p>
            
 
-Thousands of families have turned their dream of owning a home into reality with Travel Agency’s Job Apply support.
+Thousands of families have turned their dream of owning a home into reality with Travel Agency 4u’s Job Apply support.
 
           </p>
         </div>

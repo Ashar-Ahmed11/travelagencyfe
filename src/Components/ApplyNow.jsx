@@ -21,12 +21,12 @@
             }}
           >
             <div className="container">
-              <h1 className="display-4 fw-bold mb-4">Travel Agency: Your Link to Jobs Around the World</h1>
-              <h5 className="mb-3">Do you need help with online job applications in Canada, jobs in Dubai for Pakistanis, or job openings in Bahrain? Do you have questions regarding how to apply for employment online in Saudi Arabia, police jobs in Bahrain, or driving jobs in Dubai?</h5>
-              <p className="mb-2">Travel Agency offers experienced help to help you with every step of the online application procedure. Our team gives you simple instructions, experienced guidance, and individual support to help you apply for jobs in Dubai or hotels in Bahrain without any stress.</p>
-              <p className="mb-2">We are here to help you with your questions, look over your papers, and make sure you can submit your applications with confidence.</p>
+              <h1 className="display-4 fw-bold mb-4">Travel Agency 4u: Your Passport to International Employment Possibilities</h1>
+              <h5 className="mb-3">Are you trying to find employment possibilities in Dubai for Pakistani candidates or online job applications in Canada? Are you looking for work in Bahrain or are you unsure about how to apply for jobs in Saudi Arabia, such as driving or police positions in Dubai?</h5>
+              <p className="mb-2">Travel Agency 4u offers professional support during your online application process. To help you apply for jobs in Dubai or hotel positions in Bahrain without stress, our staff provides straightforward, step-by-step instructions, expert advice, and individualized support.</p>
+              <p className="mb-2">We are here to respond to your inquiries, examine your supporting documentation, and make sure you can confidently submit your applications.</p>
               <p className="small fst-italic">
-                Disclaimer: Travel Agency is a private business. We are not connected to any government <br></br> authorities and can't promise that you will get a job or a visa. 
+                Disclaimer: Travel Agency 4u is a private company. We do not promise <br></br>employment or visa approval, nor are we associated with any government agencies. 
               </p>
             </div>
           </div>

@@ -45,16 +45,16 @@ const color = "#1175c1"
 
     <>
       {siteData && <div>{<div className='whatsapp brand-image'>
-        <p className='my-0 mx-2 pl-2 fw-bold' style={{ fontSize: "11px", width: '70px', textAlign: 'center', color: color }}>Travel Agency Live Support</p>
+        <p className='my-0 mx-2 pl-2 fw-bold' style={{ fontSize: "11px", width: '70px', textAlign: 'center', color: color }}>Travel Agency 4u Live Support</p>
         {/* 923428347762 */}
-        <a className='mx-3' target="_blank" aria-label="Chat on WhatsApp" href={`https://wa.me/${siteData.phone.replace(" ", "").replace(/^0/, '92')}?text=Travel Agency کی طرف سے ہم آپ کی کیا مدد کر سکتے ہیں؟`}> <i style={{ color: color }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
+        <a className='mx-3' target="_blank" aria-label="Chat on WhatsApp" href={`https://wa.me/${siteData.phone.replace(" ", "").replace(/^0/, '92')}?text=Travel Agency 4u کی طرف سے ہم آپ کی کیا مدد کر سکتے ہیں؟`}> <i style={{ color: color }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
       </div>}
 
         <div className='phonenum brand-image'>
-          <p className='m-0 fw-bold' style={{ fontSize: "11px", width: '55px', textAlign: 'center', color: color }}>Travel Agency Head Office No.</p>
+          <p className='m-0 fw-bold' style={{ fontSize: "11px", width: '55px', textAlign: 'center', color: color }}>Travel Agency 4u Head Office No.</p>
           {/* 923428347762 */}
           {/* <a aria-label="Chat on WhatsApp" href={`tel:$${siteData.description.replace(" ", "").replace(/^0/, '92')}`}> <i style={{ color: color }} className="fa fa-phone-square" aria-hidden="true"></i> </a> */}
-        <a className='mx-3' target="_blank" aria-label="Chat on WhatsApp" href={`https://wa.me/${siteData.description.replace(" ", "").replace(/^0/, '92')}?text=Travel Agency کی طرف سے ہم آپ کی کیا مدد کر سکتے ہیں؟`}> <i style={{ color: color }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
+        <a className='mx-3' target="_blank" aria-label="Chat on WhatsApp" href={`https://wa.me/${siteData.description.replace(" ", "").replace(/^0/, '92')}?text=Travel Agency 4u کی طرف سے ہم آپ کی کیا مدد کر سکتے ہیں؟`}> <i style={{ color: color }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
 
           
           </div>
@@ -62,10 +62,10 @@ const color = "#1175c1"
       <div className="overflow-hidden whitespace-nowrap relative" style={{ backgroundColor: color }}>
         <div className="d-flex headlineMove" style={{ fontWeight: 'bold', width: 'max-content' }}>
           <p className="p-2 m-0 text-white">
-            Travel Agency Job Apply — Fast approvals, clear terms, trusted support. Contact: {siteData&&siteData.phone}
+            Travel Agency 4u Job Apply — Fast approvals, clear terms, trusted support. Contact: {siteData&&siteData.phone}
           </p>
           <p className="p-2 m-0 text-white">
-            Travel Agency Job Apply — Fast approvals, clear terms, trusted support. Contact: {siteData&&siteData.description}
+            Travel Agency 4u Job Apply — Fast approvals, clear terms, trusted support. Contact: {siteData&&siteData.description}
           </p>
         </div>
       </div>

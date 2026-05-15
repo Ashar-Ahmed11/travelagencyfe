@@ -23,10 +23,10 @@ const WhyChooseAkhuwat = () => {
         <div className="row align-items-center">
           <div className="col-lg-5">
             <h2 className="fw-bold mb-4 display-5">
-            Why It's a Good Idea to Apply for Travel Agency Jobs
+            Why It's Beneficial to Apply for Travel Agency 4u Jobs
             </h2>
             <p>
-           We make assistance easier for you here at Travel Agency. Our procedure is open, transparent, and speedy. We can help with anything from healthcare and education to finding a new home or growing your business. You can visit the closest center for assistance or apply online in a matter of minutes. No misunderstandings, no unstated fees—just precise conditions and a dependable path to your next chance. 
+           We at Travel Agency 4u make the application procedure easy and convenient for you. Our system is quick, transparent, and easy to understand. We offer assistance in a variety of sectors, including healthcare, education, relocation, and business expansion. You can apply online in a matter of minutes or go to the closest facility for help. There are only clear standards and a dependable means to proceed toward your next opportunity; there are no hidden fees or misunderstandings.
 
             </p>
           </div>

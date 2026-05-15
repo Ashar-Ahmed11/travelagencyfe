@@ -5,13 +5,13 @@ const Footer = () => {
     <footer className=" text-white" style={{backgroundColor:'#4e4e4f'}}>
       <div className="container py-5">
         <div className="row">
-          {/* Travel Agency Column */}
+          {/* Travel Agency 4u Column */}
           <div className="col-md-4 mb-4 mb-md-0">
             <h3 className="mb-4 text-white fw-bold">
-              <u>Travel Agency Job Apply</u>
+              <u>Job Application for Travel Agency 4u</u>
             </h3>
             <p>
-              Travel Agency Job Apply helps people across Pakistan with a simple, fast, and reliable process. Apply with clear steps and trusted support.
+              Travel Agency 4u Job Apply offers a straightforward, dependable, and quick application process to people all across Pakistan. Apply using precise procedures and dependable assistance at every turn.
             </p>
           </div>
 
@@ -31,10 +31,10 @@ const Footer = () => {
                 <Link to="/" className="text-white text-decoration-none">About Us</Link>
               </li>
               <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Success Story: Empowering Lives through Travel Agency Job Apply</Link>
+                <Link to="/" className="text-white text-decoration-none">Success Story: Empowering Lives through Travel Agency 4u Job Apply</Link>
               </li>
               <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Welcome to Travel Agency Job Apply</Link>
+                <Link to="/" className="text-white text-decoration-none">Welcome to Travel Agency 4u Job Apply</Link>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ const Footer = () => {
       <div className="bg-dark py-3 text-white">
   <div className="container d-flex justify-content-between align-items-center flex-wrap">
     <div className="small">
-      © Copyright Travel Agency Job Apply Pakistan. All rights reserved.
+      © Copyright Travel Agency 4u Job Apply Pakistan. All rights reserved.
     </div>
     <div>
       <Link to="/disclaimer" className="me-3 small text-white text-decoration-none">Disclaimer</Link>

@@ -66,7 +66,7 @@ const Crousal = () => {
             className="text-white text-uppercase fw-semibold mb-3 small"
             style={{ letterSpacing: '3px' }}
           >
-            Worldwide Opportunities
+            Opportunities for Global Careers
           </p>
 
      <h1
@@ -76,11 +76,11 @@ const Crousal = () => {
     >
       <TypeAnimation
         sequence={[
-          "Travel Agency Jobs Around the World", // typed text
+          "International Jobs at Travel Agency 4u Worldwide", // typed text
           2000, // pause on finished text
           "", // clear (optional)
           500, // small delay
-          "Explore Opportunities Globally", // second text (optional)
+          "Explore Global Career Opportunities", // second text (optional)
           2000,
         ]}
         speed={50}
@@ -96,7 +96,7 @@ const Crousal = () => {
             className="text-white-50 fs-5 mb-0"
             style={{ maxWidth: '460px', lineHeight: '1.8' }}
           >
-            Find diplomatic and foreign travel jobs with ease. Real listings, professional guidance, and a simpler path to your global career.
+            Investigate careers in diplomacy and foreign travel with ease. Get real listings, professional assistance, and a more seamless path to developing your global career.
           </p>
         </div>
 
@@ -113,9 +113,9 @@ const Crousal = () => {
               width: '100%',
             }}
           >
-            <h5 className="text-white fw-semibold mb-2">Begin Your Journey</h5>
+            <h5 className="text-white fw-semibold mb-2">Begin Your Professional Journey</h5>
             <p className="text-white-50 small mb-4">
-              Thousands of embassy roles are waiting. Take the first step today.
+              There are thousands of job openings at embassies. Today, take the initiative.
             </p>
             <Link
               className="btn btn-lg w-100 fw-semibold border-white border-2 car-btn"

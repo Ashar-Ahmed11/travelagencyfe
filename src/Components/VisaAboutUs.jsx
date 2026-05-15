@@ -40,15 +40,15 @@ const VisaAboutUs = () => {
           </div>
           <div className="col-lg-6">
             <p className="text-muted mb-2">About Us</p>
-            <h2 className="fw-bold mb-3">We Make Your Dreams of Working Abroad Come True</h2>
+            <h2 className="fw-bold mb-3">Making Your Dream of Working Abroad a Reality</h2>
             <p className="text-muted mb-3">
-              We at Travel Agency think that the appropriate advice may make your dream of working abroad come true. Our goal is to make the process of getting a visa and a job as easy, straightforward, and stress-free as possible. We have employment in Canada, Dubai, and Bahrain for Pakistani applicants. We know how hard it is to apply for jobs in Saudi Arabia or as a police officer in Bahrain, and our expert advisors are here to help you every step of the way. We check your papers, provide you individual advice, and make sure your applications are full and well-organized. Our goal is to provide you the tools you need to boldly go after your ideal overseas jobs.
+              At Travel Agency 4u, we think that your dream of working overseas can come true with the correct advice. Our goal is to make the application process for jobs and visas easy, transparent, and stress-free. We provide Pakistani candidates with employment possibilities in Bahrain, Dubai, and Canada. 
             </p>
             <p className="text-muted mb-3">
-              We also help you understand what you need to do to get a visa and make sure you fill out all the documents correctly.
+              Our knowledgeable advisors assist you at every stage because we recognize the difficulties associated with applying for jobs in Saudi Arabia or for police positions in Bahrain. We examine your files, offer tailored advice, and make sure your applications are comprehensive and organized. Our goal is to provide you with all the tools you need to confidently pursue career possibilities abroad.
             </p>
             <p className="text-muted mb-4">
-              Please note that Travel Agency is a private business. We are not connected to the Canadian government and cannot guarantee that your visa will be approved.
+              Additionally, we help you comprehend the criteria for a visa and make sure that all of your paperwork is completed accurately and competently.
             </p>
 
             <div className="row mb-4">
@@ -92,7 +92,7 @@ const VisaAboutUs = () => {
                 </div>
                 <h5 className="fw-bold mb-3">Our Goal</h5>
                 <p className="text-muted small">
-                  Travel Agency is committed to making job opportunities around the world available. We offer precise, professional, and tailored advice to people looking for online job applications, driving jobs in Dubai, teaching jobs in Bahrain, and more. Our advice covers the whole process, so you may clearly and confidently focus on your goals.
+                  Opening doors to international employment prospects is the mission of Travel Agency 4u. For anyone looking for online job applications, driving jobs in Dubai, teaching jobs in Bahrain, and more, we offer straightforward, expert, and customized advice. Our assistance covers every step of the process, enabling you to confidently and clearly advance toward your professional objectives.
                 </p>
               </div>
             </div>
@@ -105,7 +105,7 @@ const VisaAboutUs = () => {
                 </div>
                 <h5 className="fw-bold mb-3">Our Vision</h5>
                 <p className="small">
-                  Travel Agency wants to be the most reliable place to get online job applications for Canada, Dubai, and other countries. We make the complicated process of getting a visa and a job easier by giving you clear instructions, helping you with your paperwork, and giving you useful advice to help you succeed.
+                  The goal of Travel Agency 4u is to establish itself as a reliable online job application platform in Canada, Dubai, and other nations. In order to help you succeed, we streamline the difficult visa and employment application process by offering clear instructions, paperwork support, and helpful counsel.
                 </p>
               </div>
             </div>
@@ -116,9 +116,9 @@ const VisaAboutUs = () => {
                 <div className="mb-3" style={{width: '50px', height: '50px', backgroundColor: '#333', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white'}}>
                   <img src="https://canadajobguide.com/wp-content/uploads/2025/08/1.png" alt="" />
                 </div>
-                <h5 className="fw-bold mb-3">What We've Done</h5>
+                <h5 className="fw-bold mb-3">Our Successes</h5>
                 <p className="text-muted small">
-                  We have helped hundreds of people get jobs at Bahrain airport, Dubai roles for Pakistani applicants, Bahrain hotel vacancies, and other exciting job openings throughout the world. Travel Agency has a great reputation for being trustworthy, accurate, and professional since we focus on our clients and give them dependable advice.
+                  We have helped hundreds of people land jobs at Bahrain airports, jobs in Dubai for Pakistani candidates, Bahrain hotel openings, and other worldwide career chances. By putting clients first and offering trustworthy advice all along the way, Travel Agency 4u has established a solid reputation for accuracy, professionalism, and confidence.
                 </p>
               </div>
             </div>
@@ -130,9 +130,12 @@ const VisaAboutUs = () => {
       <div className="container py-5">
         <div className="row align-items-center">
           <div className="col-lg-6 mb-4 mb-lg-0">
-            <h2 className="fw-bold mb-3">Get an Easy Application</h2>
+            <h2 className="fw-bold mb-3">Easy Application Procedure</h2>
+            <p className="mb-2">
+              Applying for foreign employment and visas is made simple with Travel Agency 4u. In order to ensure that you are prepared to apply for opportunities in Saudi Arabia, Bahrain, and at the U.S. Embassy in Bahrain, our experts assist you at every stage, from initial document preparation to final submission.
+            </p>
             <p className="mb-4">
-              Travel Agency makes it easy to apply for jobs and visas in other countries. Our advisers help you with everything from getting the first documents ready to submitting them, making sure you're ready to apply for jobs in Saudi Arabia, Bahrain, and the US Embassy in Bahrain. Join the thousands who have successfully applied with our help and take confident steps toward your worldwide career.
+              Take bold steps toward developing your worldwide career and join thousands of successful applicants who have relied on our advice.
             </p>
             <button className="btn  text-white px-4" style={{backgroundColor:'#1175C1'}}>Contact Now</button>
           </div>

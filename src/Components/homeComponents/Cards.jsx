@@ -7,17 +7,17 @@ const Cards = () => {
     <div className='' style={{ backgroundColor: '#f7f8f9' }}>
       <div className='container text-center' >
       {/* <p className='w-70% text-center'>Travel Embassy Job Apply</p> */}
-      <p className='w-70% text-center' style={{paddingTop:'26px'}}>Apply for jobs at the Travel Agency</p>
+      <p className='w-70% text-center' style={{paddingTop:'26px'}}>Sign up for Careers at Travel Agency 4u</p>
       
       <h1 ><b>What We Offer</b></h1>
-        <h1><b>Start on the road to a better and brighter future.</b></h1>
+        <h1><b>Set out on the path to a better and more prosperous future.</b></h1>
         <div className="row mt-5 d-flex justify-content-center flex-wrap">
           {[
-            { icon: 'fa-money', title: 'Applications for Individual Jobs', desc: 'You can keep track of your application status at every step because the criteria are clear and easy to change.' },
-            { icon: 'fa-suitcase', title: 'Applications for Business Jobs', desc: 'Enjoy a smooth procedure with timely decisions and less paperwork.' },
-            { icon: 'fa-eye', title: 'Job Applications from Home', desc: 'Get full help with home-related jobs by filling out a quick and easy application.' },
-            { icon: 'fa-heart', title: 'Applications for Wedding and Event Jobs', desc: 'Get jobs at unique events with flexible hours and quick approvals.' },
-            { icon: 'fa-refresh', title: 'Applications for Jobs in Cars and Transportation', desc: 'Get speedy approvals and flexible driving and transportation jobs without any trouble.' },
+            { icon: 'fa-money', title: 'Applications for Individual Jobs', desc: "Because the requirements are straightforward, clear, and quick to update, you can track the progress of your application at every level." },
+            { icon: 'fa-suitcase', title: 'Applications for Business Jobs', desc: 'Enjoy a simplified procedure with less paperwork and quicker decisions.' },
+            { icon: 'fa-eye', title: 'Applications for Jobs at Home', desc: 'Complete a quick and easy application process to get full support for work-from-home positions.' },
+            { icon: 'fa-heart', title: 'Job Applications for Weddings and Events', desc: 'Opportunities for flexible scheduling and quick approval processes are available during special events.' },
+            { icon: 'fa-refresh', title: 'Job Applications in Automotive and Transportation', desc: 'Take advantage of speedy approvals and flexible driving and transportation jobs with a hassle-free, seamless process.' },
           ].map((card, i) => (
             <div className={`col-md-4 col-12 mt-4 ${i >= 3 ? 'mb-4' : ''}`} key={card.title}>
               <div

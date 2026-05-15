@@ -20,9 +20,9 @@ const Visa = () => {
               }}
             >
               <div className="container">
-                <h1 className="display-4 fw-bold mb-4">Visa Services: Your Reliable Partner for Job Opportunities Around the World</h1>
+                <h1 className="display-4 fw-bold mb-4">Visa Services: Your Reliable Partner for International Job</h1>
                 <p className="mb-2">
-                  Travel Agency makes it easy and stress-free to apply for jobs in Canada, Dubai, and other places across the world. Our expert team checks your paperwork, gives you specific advice, and makes sure that every part of your visa application is correct and clear. We focus on making things clear and giving you confidence so you may look for jobs around the world without getting confused.
+                  Opportunities Travel Agency 4u streamlines and simplifies the process of applying for jobs in Canada, Dubai, and other international locations. Our knowledgeable staff carefully examines your documentation, offers individualized advice, and guarantees that every aspect of your visa application is correct and well-prepared. We place a high value on clarity and confidence, enabling you to pursue international job opportunities without worry or confusion.
                 </p>
               </div>
             </div>
@@ -33,9 +33,9 @@ const Visa = () => {
       {/* About Cards Section */}
       <div className="container py-5">
         <div className="text-center mb-5">
-          <h2 className="fw-bold mb-3">Complete Visa Solutions</h2>
+          <h2 className="fw-bold mb-3">Full-Service Visa Solutions</h2>
           <p className="text-muted">
-            We help with every step of the visa application process, whether you're looking for a job in Bahrain, Saudi Arabia, or the US Embassy in Bahrain. We offer experienced advice, a step-by-step evaluation of your documents, and help that is specific to your career goals.
+            Whether you are applying for jobs in Bahrain, Saudi Arabia, or at the U.S. Embassy in Bahrain, we assist you at every step of the visa application process. Expert advice, thorough, step-by-step document analysis, and individualized support based on your professional goals are all included in our service.
           </p>
         </div>
 
@@ -46,9 +46,9 @@ const Visa = () => {
               <div className="mb-3" style={{width: '50px', height: '50px', backgroundColor: '#333', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white'}}>
                 <img src="https://canadajobguide.com/wp-content/uploads/2025/08/Frame-35.png" alt="" />
               </div>
-              <h5 className="fw-bold mb-3">Visa Advice</h5>
+              <h5 className="fw-bold mb-3">Advice on Visas</h5>
               <p className="small">
-                Get individualized help picking the correct visa path for your career abroad. Travel Agency can assist you learn about immigration rules and how to get jobs in Canada, Dubai, and other places, like driving jobs in Dubai.
+                Get individualized assistance in choosing the best visa route for your global career. Travel Agency 4u assists you in comprehending immigration regulations and investigating employment prospects in Canada, Dubai, and other locations, including driving positions in Dubai.
               </p>
             </div>
           </div>
@@ -59,9 +59,9 @@ const Visa = () => {
               <div className="mb-3" style={{width: '50px', height: '50px', backgroundColor: '#333', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white'}}>
                 <img src="https://canadajobguide.com/wp-content/uploads/2025/08/Frame-36-1.png" alt="" />
               </div>
-              <h5 className="fw-bold mb-3">Help with Online Applications</h5>
+              <h5 className="fw-bold mb-3">Online Assistance for Applications</h5>
               <p className="text-muted small">
-                We help you with every step of the visa application process by giving you clear information and support. Our team makes sure that your paperwork is comprehensive, your applications are free of mistakes, and you are ready to apply for jobs with the Bahrain police, hotels, and schools.
+                We provide you with clear instructions and committed assistance at every stage of the visa application procedure. Our staff makes sure your applications are accurate, your paperwork is complete, and you are ready to apply for jobs with the Bahrain police, hotels, and educational institutions.
               </p>
             </div>
           </div>
@@ -72,9 +72,9 @@ const Visa = () => {
               <div className="mb-3" style={{width: '50px', height: '50px', backgroundColor: '#333', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white'}}>
                 <img src="https://canadajobguide.com/wp-content/uploads/2025/08/Frame-35-1.png" alt="" />
               </div>
-              <h5 className="fw-bold mb-3">Help for Customers</h5>
+              <h5 className="fw-bold mb-3">Customer Service Support</h5>
               <p className="text-muted small">
-                Our devoted crew is always ready to help and give advice. We make sure that your visa application process is easy and stress-free by checking documents and answering questions.
+                Our committed staff is always on hand to offer support and direction. By carefully examining your documents and responding to all of your questions, we make sure your visa application procedure stays easy and stress-free.
               </p>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Visa = () => {
               </div>
               <h5 className="fw-bold mb-3">Advice on Work Visas</h5>
               <p className="text-muted small">
-                Are you planning to work abroad? Travel Agency helps people apply for work visas to popular places including Canada, Saudi Arabia, the UAE, Oman, Malaysia, and more. We help both skilled and unskilled workers understand what they need to do to get a job in another country and walk them through the process. Opportunities include Dubai jobs for Pakistani applicants, car driver jobs in Dubai, and hotel jobs in Bahrain.
+                Do you intend to work overseas? Travel Agency 4u helps people apply for work visas to well-known places including Malaysia, Canada, Saudi Arabia, the UAE, Oman, and more. By outlining the needs in detail and assisting them at every stage of the procedure, we assist both experienced and unskilled individuals. Opportunities include driving employment in Dubai, hotel jobs in Bahrain, and jobs in Dubai for Pakistani candidates.
               </p>
             </div>
           </div>
@@ -109,9 +109,11 @@ const Visa = () => {
             >
               <div className="row">
                 <div className="col-lg-6">
-                  <h2 className="fw-bold mb-4">No Trouble with Visa Applications</h2>
+                  <h2 className="fw-bold mb-4">Easy Applications for Visas</h2>
                   <p className="mb-0">
-                    We make complicated visa processes easier so you may focus on your career goals. We make sure your application is correct, clear, and personalized to your needs by giving you expert advice, reviewing your documents, and walking you through the process step by step. We help you at every step, from applying for jobs online to working at the airport in Bahrain. Clients are told to check all information with official sources so they may make smart choices.
+                    We streamline difficult visa procedures so you can continue concentrating on your professional objectives. To make sure your application is precise, understandable, and customized to your requirements, our knowledgeable staff offers advice, examines your supporting documentation, and helps you every step of the way. We help you every step of the way, from online job applications to Bahraini airport jobs.
+
+In order to make wise choices, clients are also urged to confirm all information with reputable sources.
                   </p>
                 </div>
               </div>

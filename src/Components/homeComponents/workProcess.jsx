@@ -7,9 +7,9 @@ const WorkProcess = () => {
         <p className=" mb-2" style={{borderLeft: '3px solid #1175C1', color:'#1175C1', paddingLeft: '10px', display: 'inline-block'}}>
           How to Work
         </p>
-        <h2 className="fw-bold mb-3">Our Easy Canada Visa Journey</h2>
+        <h2 className="fw-bold mb-3">Easy Procedure for a Canada Visa</h2>
         <p className="text-muted">
-          With clear processes and experienced help, getting a job visa for Canada will be easy and stress-free.
+          Getting a job visa for Canada is easy and hassle-free with clear instructions and professional assistance.
         </p>
       </div>
 
@@ -24,9 +24,9 @@ const WorkProcess = () => {
                 style={{width: '100px', height: '100px', objectFit: 'contain'}}
               />
             </div>
-            <h5 className="fw-bold mb-3">Personalized Guidance for Your Canada Job Visa</h5>
+            <h5 className="fw-bold mb-3">Tailored Assistance for Your Job Visa to Canada</h5>
             <p className="text-muted small">
-              "Get personalized assistance from experienced advisors who will help you get ready with confidence and clarity."
+              Get personalized advice from knowledgeable consultants so you can get ready with assurance and clarity.
             </p>
           </div>
         </div>
@@ -41,9 +41,9 @@ const WorkProcess = () => {
                 style={{width: '100px', height: '100px', objectFit: 'contain'}}
               />
             </div>
-            <h5 className="fw-bold mb-3">Help with your visa application that speeds up the process</h5>
+            <h5 className="fw-bold mb-3">Quick Help with Visa Applications</h5>
             <p className="text-muted small">
-              "Get help when you need it, smart updates, and a procedure that is meant to keep things moving along quickly."
+              Get assistance whenever you need it, along with timely information and a procedure that makes sure your application proceeds smoothly.
             </p>
           </div>
         </div>
@@ -58,9 +58,9 @@ const WorkProcess = () => {
                 style={{width: '100px', height: '100px', objectFit: 'contain'}}
               />
             </div>
-            <h5 className="fw-bold mb-3">Consulting that is cheap and useful</h5>
+            <h5 className="fw-bold mb-3">Reasonably priced and useful consulting</h5>
             <p className="text-muted small">
-              "Get help with your Canada visa from experts at reasonable prices. They will provide you reliable advice without charging you a lot."
+              Get help for your Canada visa from knowledgeable professionals at affordable prices, providing trustworthy advice without exorbitant fees.
             </p>
           </div>
         </div>
@@ -75,9 +75,9 @@ const WorkProcess = () => {
                 style={{width: '100px', height: '100px', objectFit: 'contain'}}
               />
             </div>
-            <h5 className="fw-bold mb-3">Trusted Around the World for Canada Visa Success</h5>
+            <h5 className="fw-bold mb-3">Worldwide Reliability for Canada Visa Success</h5>
             <p className="text-muted small">
-              Join the thousands of people who rely on our clear, professional, and trustworthy help with their Canada job visa applications. 
+              Become one of the thousands of applicants who rely on our dependable, competent, and transparent assistance with their Canada job visa application process.
             </p>
           </div>
         </div>

@@ -44,7 +44,7 @@ const Akhuwatstatus = () => {
             <img
               src={getCdnUrl(Akhuwat13)}
               style={{height:"150px",objectFit:'cover'}}
-              alt="Travel Agency Job Apply Banner"
+              alt="Travel Agency 4u Job Apply Banner"
               className="card-img-top rounded mb-3"
             />
             <form onSubmit={handleSubmit}>
@@ -76,7 +76,7 @@ const Akhuwatstatus = () => {
         <div className="col-md-6 p-5">
           <h2 className="fw-bold mb-3">Verify the Status of Your Job Application</h2>
           <p>
-            Enter your CNIC to view the status of your Travel Agency job application and receive real-time updates in a matter of seconds. Do you need assistance? At any time, our WhatsApp support staff is available to help. 
+            To see the status of your Travel Agency 4u job application and receive real-time updates in a matter of seconds, enter your CNIC. Do you need assistance? Our WhatsApp support staff is here to help you at any time.
           </p>
         </div>
       </div>

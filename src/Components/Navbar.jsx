@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Images/log.png'
+import logo from '../Images/AGENCY 4U.png'
 import { getCdnUrl } from '../utils/cdnImage'
 import {
   Link
@@ -12,7 +12,7 @@ const Navbar = () => {
     {/* backgroundColor:'#f7f8f9' */}
   <nav className="py-2 navbar  w-90 p-3 navbar-expand-lg sticky-top "style={{ height: '80px', }}>
   <div className= " container-fluid d-flex justify-content-between " style={{ width: '80%' }}>
-    <Link className="navbar-brand me-3" to="/"><img className='' style={{ width: '60px' }} src={getCdnUrl(logo)} alt="" /></Link>
+    <Link className="navbar-brand me-3" to="/"><img className='' style={{ width: '50px' }} src={getCdnUrl(logo)} alt="" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

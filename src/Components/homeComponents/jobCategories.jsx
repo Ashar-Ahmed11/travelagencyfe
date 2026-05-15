@@ -24,8 +24,8 @@ const JobCategories = () => {
   return (
     <div className="container py-5">
       <div className="text-center mb-5">
-        <h2 className="fw-bold">Types of Jobs</h2>
-        <p className="text-muted">8-hour shifts with the option of working extra hours; no age limit; no degree needed; no IELTS needed </p>
+        <h2 className="fw-bold">Job categories</h2>
+        <p className="text-muted">Include 8-hour duty shifts with overtime chances, no age restrictions, no educational requirements, and no IELTS score.</p>
       </div>
 
       <div className="row g-4">
