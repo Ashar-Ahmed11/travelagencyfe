@@ -86,7 +86,7 @@ const Posts = () => {
 
       <div className="d-flex flex-column gap-3">
         {posts.map(p=>(
-          <div key={p._id} className="card shadow-sm" role="button" onClick={()=>history.push(`/posts/${p._id}`)}>
+          <div key={p._id} className="card shadow-sm" role="button" onClick={()=>history.push(`/posts/${p.slug}`)}>
             <div className="card-body">
               <div className="d-flex justify-content-between align-items-center">
                 <h5 className="mb-1">{p.title}</h5>

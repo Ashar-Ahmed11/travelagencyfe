@@ -114,8 +114,8 @@ const AppState = (props) => {
   const [posts, setPosts] = useState([])
   const [postsLoaded, setPostsLoaded] = useState(false)
   const [postsLoading, setPostsLoading] = useState(false)
-  const [postById, setPostById] = useState({})
-
+  const [postStore, setPostStore] = useState({})
+// https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com
   const fetchPosts = async () => {
     if (postsLoading) return;
     setPostsLoading(true)
@@ -137,7 +137,7 @@ const AppState = (props) => {
       const res = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts/${id}`, { method: 'GET' })
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Failed to fetch post')
-      setPostById(prev => ({ ...prev, [id]: data }))
+      setPostStore(prev => ({ ...prev, [id]: data }))
       return data
     } catch (e) {
       console.error('fetchPostById:', e.message)
@@ -145,12 +145,32 @@ const AppState = (props) => {
     }
   }
 
-  const createPostItem = async (title, description) => {
+  const fetchPostBySlug = async (slug) => {
     try {
+      const res = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts/slug/${slug}`, { method: 'GET' })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Failed to fetch post')
+      setPostStore(prev => ({ ...prev, [slug]: data }))
+      return data
+    } catch (e) {
+      console.error('fetchPostBySlug:', e.message)
+      return null
+    }
+  }
+
+  const createPostItem = async (title, description) => {
+    const slugify = (text) => text.toString().toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w-]+/g, '')
+      .replace(/--+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+    try {
+      const slug = slugify(title);
       const res = await fetch('https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'auth-token': adminToken || '' },
-        body: JSON.stringify({ title, description })
+        body: JSON.stringify({ title, description, slug })
       })
       const created = await res.json()
       if (!res.ok) throw new Error(created.error || 'Failed to create post')
@@ -163,16 +183,23 @@ const AppState = (props) => {
   }
 
   const updatePostItem = async (id, title, description) => {
+    const slugify = (text) => text.toString().toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w-]+/g, '')
+      .replace(/--+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
     try {
-      const res = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/api/posts/${id}`, {
+      const slug = slugify(title);
+      const res = await fetch(`https://secondembassyloanex-dot-arched-gear-433017-u9.de.r.appspot.com/posts/${id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json', 'auth-token': adminToken || '' },
-        body: JSON.stringify({ title, description })
+        body: JSON.stringify({ title, description, slug })
       })
       const updated = await res.json()
       if (!res.ok) throw new Error(updated.error || 'Failed to update post')
       setPosts(prev => prev.map(p => p._id === id ? updated : p))
-      setPostById(prev => ({ ...prev, [id]: updated }))
+      setPostStore(prev => ({ ...prev, [id]: updated, [updated.slug]: updated }))
       return updated
     } catch (e) {
       alert(e.message)
@@ -189,7 +216,7 @@ const AppState = (props) => {
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Failed to delete post')
       setPosts(prev => prev.filter(p => p._id !== id))
-      const copy = { ...postById }; delete copy[id]; setPostById(copy)
+      const copy = { ...postStore }; delete copy[id]; setPostStore(copy)
       return true
     } catch (e) {
       alert(e.message)
@@ -480,7 +507,7 @@ const mailSend = async (to) => {
 
     // console.clear()
   return (
-    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate, posts, postsLoaded, postsLoading, fetchPosts, createPostItem, updatePostItem, deletePostItem, fetchPostById, postById }}>
+    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate, posts, postsLoaded, postsLoading, fetchPosts, createPostItem, updatePostItem, deletePostItem, fetchPostById, postStore, fetchPostBySlug }}>
       {props.children}
     </AppContext.Provider>
   )

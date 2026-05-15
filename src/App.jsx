@@ -91,7 +91,7 @@ const color = "#1175c1"
         <Route exact path="/posts">
           <Posts />
         </Route>
-        <Route exact path="/posts/:id">
+        <Route exact path="/posts/:slug">
           <PostDetail />
         </Route>
         <Route exact path="/faq">
